@@ -1,0 +1,18 @@
+<!--<div class="dashboard">-->
+<!--  <h1>Dashboard - user has logged in</h1>-->
+
+<!--  <p>-->
+<!--    {{ profile | json }}-->
+<!--  </p>-->
+
+<!--  <button (click)="logOut()">LogOut</button>-->
+<!--</div>-->
+
+
+<div class="dashboard">
+  <h1>Welcome to the Dashboard</h1>
+  <p><strong>Name:</strong> {{ profile?.name }}</p>
+  <p><strong>Email:</strong> {{ profile?.email }}</p>
+  <button (click)="logOut()">Log Out</button>
+</div>
+
